@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Box CSS */
+.box {
+    width: 250px;
+    height: 200px;
+    background-color: #000;
+    margin: 10px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes kuddus {
+    0% {
+        background-color: #ff0000;
+    }
+    
+    30% {
+        background-color: #e331ea;
+    }
+    
+    60% {
+        background-color: #3fb40b;
+    }
+    
+    90% {
+        background-color: #11344a;
+    }
+}
+
+@keyframes kasim {
+    0% {
+        background-color: #11344a;
+    }
+    
+    30% {
+        background-color: #3fb40b;
+    }
+    
+    60% {
+        background-color: #e331ea;
+    }
+    
+    90% {
+        background-color: #11344a;
+    }
+}
+
+.boxparent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
